@@ -1,6 +1,10 @@
 <?php
 
-Route::get('/', 'Controlador@index');
+Route::get('/', 'Controlador@Sesion');
+
+Route::post('/validar', 'Controlador@ValidarSesion');
+
+Route::get('/menu', 'Controlador@Index');
 
 Route::get('/pablo', 'Controlador@Pablo');
 
@@ -11,4 +15,6 @@ Route::get('/diego', 'Controlador@Diego');
 Route::get('/Leonardo', 'Controlador@Leonardo');
 
 Route::get('/Velazquez', 'Controlador@Velazquez');
+
+
 

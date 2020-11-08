@@ -6,11 +6,23 @@ use Illuminate\Http\Request;
 
 class Controlador extends Controller
 {
-    function index() {
+    function ValidarSesion(Request $Request) {
+        $user = $Request -> input('user');
+        $pass = $Request -> input('pass');
+
         return view('index');
     }
 
-    function pablo() {
+    function Sesion() {
+
+        return view('sesion');
+    }
+
+    function Index() {
+        return view('index');
+    }
+
+    function Pablo() {
         return view('Pablo');
     }
 

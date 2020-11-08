@@ -10,12 +10,10 @@
 </head>
 
 <body class="cuerpo">
-    <header class="header-ppal">
-        <div class="">
-            <h1>Pintores Favoritos</h1>
-        </div>
-    </header>
 
+    <header class="header-ppal">
+            <h1>Pintores Favoritos</h1>
+    </header>
     <main>
         <div class="biblio-mini">
 
